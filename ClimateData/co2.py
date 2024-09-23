@@ -2,10 +2,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # 读取 CSV 文件
-file1_path = '/Users/yezigongzhu/Desktop/Russia/file1.csv'  # 替换为文件 1 的路径
-file2_path = '/Users/yezigongzhu/Desktop/Russia/file2.csv'  # 替换为文件 2 的路径
-file3_path = '/Users/yezigongzhu/Desktop/Russia/file3.csv'  # 替换为文件 3 的路径
-file4_path = '/Users/yezigongzhu/Desktop/Russia/file4.csv'  # 替换为文件 4 的路径
+file1_path = '/Users/yezigongzhu/Desktop/ClimateData/Russia/file1.csv'  # 替换为文件 1 的路径
+file2_path = '/Users/yezigongzhu/Desktop/ClimateData/Russia/file2.csv'  # 替换为文件 2 的路径
+file3_path = '/Users/yezigongzhu/Desktop/ClimateData/Russia/file3.csv'  # 替换为文件 3 的路径
+file4_path = '/Users/yezigongzhu/Desktop/ClimateData/Russia/file4.csv'  # 替换为文件 4 的路径
 
 # 读取数据
 df1 = pd.read_csv(file1_path)
